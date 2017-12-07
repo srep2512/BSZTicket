@@ -23,12 +23,14 @@ public class TicketController {
 	DataService dataService;
 	
 	@RequestMapping("/tickets")
+	@CrossOrigin
 	public List<Ticket> getTickets()
 	{		
 		return dataService.getTickets();		
 	}
 	
 	@RequestMapping(value="/addTicket",method=RequestMethod.POST)
+	@CrossOrigin
 	public void addTicket(@RequestBody Ticket ticket) {		
 		ticket.setID(new Date().getTime());
 		dataService.addTicket(ticket);
