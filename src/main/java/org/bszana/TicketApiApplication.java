@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TicketApiApplication {
 
-	@RequestMapping("/lol")
-	public String lol() {
-		return "Hi!";
-		
-	}
+	
 	public static void main(String[] args) {
 		SpringApplication.run(TicketApiApplication.class, args);
 	} 

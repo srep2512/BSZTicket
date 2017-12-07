@@ -35,7 +35,7 @@ public class TicketController {
 		dataService.addTicket(ticket);
 	}
 	
-	@RequestMapping(value="/addTicket",method=RequestMethod.POST)
+	@RequestMapping(value="/deleteTicket",method=RequestMethod.POST)
 	@CrossOrigin
 	public void deleteTicket(@RequestBody Ticket t) {
 		dataService.deleteTicket(t);
