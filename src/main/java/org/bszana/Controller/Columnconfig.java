@@ -17,8 +17,8 @@ public class Columnconfig {
 	public List<Column> getTickets()
 	{		
 		List<Column> columnConfig = new ArrayList<Column>();
-		columnConfig.add(new Column("id","id",true,true));
-		columnConfig.add(new Column("Beschreibung","Beschreibung",true,true));
+		columnConfig.add(new Column("id","id",true,true,"100px"));
+		columnConfig.add(new Column("Beschreibung","Beschreibung",true,true,"100px"));
 		return columnConfig;		
 	}
 }

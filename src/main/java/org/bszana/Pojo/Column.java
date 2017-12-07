@@ -5,12 +5,14 @@ public class Column {
     String field;
     Boolean sort;
     Boolean filter;
+    String width;
     
-    public Column(String label, String field, Boolean sort, Boolean filter) {
+    public Column(String label, String field, Boolean sort, Boolean filter, String width) {
     	this.setField(field);
     	this.setLabel(label);
     	this.setSort(sort);
     	this.setFilter(filter);
+    	this.setWidth(width);
     }
     
     public String getLabel() {
@@ -43,5 +45,5 @@ public class Column {
 	public void setWidth(String width) {
 		this.width = width;
 	}
-	String width;
+	
 }
