@@ -27,4 +27,8 @@ public class DataService {
 		public void addTicket(Ticket t) {
 			this.tickets.add(t);
 		}
+		
+		public void deleteTicket(Ticket t) {
+			this.tickets.removeIf(x->x.getID() == t.getID());
+		}
 }
