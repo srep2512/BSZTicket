@@ -17,10 +17,10 @@ public class DataService {
 		
 		private void initiateData() {
 			this.tickets = new ArrayList<Ticket>();
-			this.tickets.add(new Ticket("TestTicket","Fehler in der Anzeige"));
-			this.tickets.add(new Ticket("TestTicket","Fehler Berechnung"));
-			this.tickets.add(new Ticket("TestTicket","Bug speichern Anzeige A"));
-			this.tickets.add(new Ticket("TestTicket","Program stürzt ab"));
+			this.tickets.add(new Ticket(1,"TestTicket","Fehler in der Anzeige"));
+			this.tickets.add(new Ticket(2,"TestTicket","Fehler Berechnung"));
+			this.tickets.add(new Ticket(3,"TestTicket","Bug speichern Anzeige A"));
+			this.tickets.add(new Ticket(4,"TestTicket","Program stürzt ab"));
 		}
 		
 		public List<Ticket> getTickets(){

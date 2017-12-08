@@ -14,6 +14,12 @@ public class Ticket {
 		this.setBeschreibung(beschreibung);
 	}
 	
+	public Ticket(long id,String name,String beschreibung) {
+		this.setBeschreibung(beschreibung);
+		this.setName(name);
+		this.setID(id);
+	}
+	
 	public long getID() {
 		return ID;
 	}
