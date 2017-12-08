@@ -20,7 +20,7 @@ public class DataService {
 			this.tickets.add(new Ticket(1,"ISSUE#234","Fehler in der Anzeige"));
 			this.tickets.add(new Ticket(2,"ISSUE#212","Fehler Berechnung"));
 			this.tickets.add(new Ticket(3,"ISSUE#200","Bug speichern Anzeige A"));
-			this.tickets.add(new Ticket(4,"ISSUE#2341","Program stürzt ab"));
+			this.tickets.add(new Ticket(4,"ISSUE#2341","Program stuerzt immer ab"));
 		}
 		
 		public List<Ticket> getTickets(){
